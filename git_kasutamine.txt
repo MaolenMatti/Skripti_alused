@@ -9,4 +9,8 @@
 2)git config --global user.email johndoe@example.com
 3)git config --global core.editor nano
 
-3. 
+3. Kasutamine
+
+1) Alguses AINULT üks kord kataloogis, kus planeerime skriptid hoida ja muuta -> git init
+2) Iga failiga - eeldusega, et fail on juba olemas, lisatud ja salvestatud mingi sisu. -> git status;	git add "failinimi";	git commit -m "muudatuse kirjeldus".
+3) Muudatuste ajaloo jälgimine -> git log;	git show commit_hash;
