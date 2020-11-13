@@ -1,11 +1,11 @@
 #!/bin/bash
-###skript mis loob lause###
-kes="Kaljulaid"
-mis_tegi=" lõpetas"
-kuna=" 1992.aastal"
+###Lause frormuleerimine muutujatega###
+kes="Kersti Kaljulaid"
+mistegi=" lõpetas"
+kuna=" 1992. aastal"
 mille=" Tartu Ülikooli"
-mis_alal=" bioloogia erialal."
-lause=$kes$mis_tegi$kuna$mille$mis_alal
+misalal=" bioloogia erialal"
+lause=$kes$mistegi$kuna$mille$misalal
 echo
 echo $lause
 echo
