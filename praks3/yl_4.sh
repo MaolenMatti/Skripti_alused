@@ -6,6 +6,6 @@ echo -n "Palun sisestage reisijate arv: "
 read reisiad
 echo -n "Palun sisestage kohtade arv bussis: "
 read kohad
-bussid=$(("$rexisiad/$kohad"))
+bussid=$(("$reisiad/$kohad"))
 jaabpuudu=$(("$reisiad-$bussid*$kohad"))
 echo "Ekskursioonile saab sulla $bussid bussitäit inimesi. Retkelt jääb maha $jaabpuudu inimest"
